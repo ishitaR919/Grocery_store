@@ -1,6 +1,8 @@
 import mysql.connector
 
-__cnx= None
+__cnx = None
+
+
 def get_sql_connection():
     global __cnx
     if __cnx is None:
